@@ -5,12 +5,22 @@
 <a-scene>
 
   
+  <a-assets>
+    <a-asset-item id="horse-obj" src="horse.obj"></a-asset-item>
+    <a-asset-item id="horse-mtl" src="horse.mtl"></a-asset-item>
+    <img id="advertisement" src="ad.png">
+    <a-asset-item id="iphone5" src="ColeCrouch.github.io/model.dae"></a-asset-item>
+    <video id="kentucky-derby" src="derby.mp4">
+  </a-assets>
+  
+  
+  
  <a-sphere position="6 0.75 -5" width="1" height="1" depth="1" color="#ff9900"></a-sphere>
   
    <a-sky src="ColeCrouch.github.io/29173852033_2d1c8cdfa4_o (4).jpg"></a-sky>
   
   
-  <a-collada-model src="ColeCrouch.github.io/model.dae" position="0 0 -6"></a-collada-model>
+  <a-collada-model src="#iphone5" position="0 0 -6"></a-collada-model>
   
   <a-curvedimage src="ColeCrouch.github.io/Test with grey spray back v2.png" radius="5.7" theta-length="72" height="2.6"
                      rotation="0 100 0" position="0 1.5 2.1" scale="0.6 0.6 0.6"></a-curvedimage>
